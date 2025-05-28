@@ -76,3 +76,26 @@ select * from members;
 select name from orchestras where year > 2000;
 select distinct city from concerts where year > 2022;   
 SELECT name FROM orchestras WHERE city_origin IN (SELECT city FROM concerts);
+
+select * from orchestras where city_origin in (select city from concerts where year = 2022) and id in (select orchestra_id from concerts where year = 2022);
+create view orchestras_view as select * from orchestras where city_origin in (select city from concerts where year = 2022) and id in (select orchestra_id from concerts where year = 2022);
+
+select * from orchestras_view;
+
+--nombres y cargos de todos los miembros de orquestas que tengan mas de 20 de experiencia
+select name, position from members where experience > 20 ORDER by name desc;
+--nombres y cargos de todos los miembros de orquestas que tengan mas de 20 de experiencia y que pertenecen a una orquesta
+
+--nombres y cargos de todos los mienbros de orquestas que tengan mas de 20 de experiencia y que no pertenecen a una orquesta
+
+select name, position from members where experience > 20 and orchestra_id is null;
+
+--nombres de todos los miembros de orquestas que tengas mas de 10 años de experiencia y sean violistas
+
+select name from members where experience > 10 and position = 'Violinista';
+
+seleccionar los nombres y cargos (es decir, el instrumento que tocan) de todos los mienbros de orquestas que tengan mas de 10 años de experiencia y no pertenezcan a orquestas con una calificación infertor a 8,0
+select name, position from members where experience > 10 and orchestra_id not in (select id from orchestras where rating <= 8.0);
+select name, position from members where experience > 10 and orchestra_id in (select id from orchestras where rating >= 8.0);
+select name, position from members where experience >= 9 and orchestra_id is NULL;
+
