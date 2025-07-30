@@ -1,0 +1,21 @@
+id_riesgo,id_proyecto,descripcion,estado,prioridad,categoria
+1,1,Falla en servidor principal,Abierto,Alta,Técnico
+2,2,Fuga de datos de usuarios,Mitigado,Alta,Legal
+3,3,Errores en pagos recurrentes,Abierto,Media,Financiero
+4,4,Falta de mantenimiento en bibliotecas,Cerrado,Baja,Operacional
+5,5,Inestabilidad en control de gastos,Abierto,Alta,Financiero
+6,6,Baja concurrencia de usuarios,Mitigado,Media,Técnico
+7,7,Pérdida de inventario por mala gestión,Abierto,Alta,Operacional
+8,8,Retraso en simulación de tráfico,En Progreso,Baja,Técnico
+9,9,Conexión inestable en sensores IoT,Abierto,Alta,Técnico
+10,10,Fallas en sincronización de CRM,Cerrado,Media,Operacional
+11,11,Falta de tutores disponibles,Abierto,Alta,Operacional
+12,12,Altos costos de energía,Mitigado,Media,Financiero
+13,13,Modelos Arena desactualizados,En Progreso,Baja,Técnico
+14,14,Sistema de alertas no notifica,Cerrado,Alta,Técnico
+15,15,Conflictos de horario en calendario,Abierto,Media,Operacional
+16,16,Falla en pasarela de pagos,Mitigado,Alta,Financiero
+17,17,Problemas de privacidad en red social,Abierto,Alta,Legal
+18,18,Resultados incorrectos en test de estrés,En Progreso,Media,Técnico
+19,19,Falta de difusión en eventos,Abierto,Baja,Operacional
+20,20,Errores en rutas de transporte,Cerrado,Alta,Técnico

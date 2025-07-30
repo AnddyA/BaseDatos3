@@ -1,0 +1,21 @@
+id_plan,id_riesgo,descripcion,estrategia,fecha_implementacion,eficiencia
+1,1,Respaldo diario de servidor,Implementar backups automáticos,2025-07-05,Alta
+2,2,Cifrado avanzado de datos,Usar AES-256 en bases de datos,2025-07-06,Muy Alta
+3,3,Revisión de pasarela de pago,Auditoría mensual,2025-07-07,Media
+4,4,Programa de mantenimiento,Contratar servicio externo,2025-07-08,Alta
+5,5,Monitoreo de gastos,Alertas automáticas en dashboard,2025-07-09,Alta
+6,6,Estrategia de marketing,Campaña para atraer estudiantes,2025-07-10,Media
+7,7,Control de stock en tiempo real,Instalar sensores RFID,2025-07-11,Muy Alta
+8,8,Optimización del algoritmo,Reducir carga en simulación,2025-07-12,Alta
+9,9,Revisión de hardware IoT,Actualizar firmware,2025-07-13,Media
+10,10,Capacitación de usuarios,Entrenamientos semanales,2025-07-14,Alta
+11,11,Contratación de tutores extra,Campaña de reclutamiento,2025-07-15,Alta
+12,12,Instalación de paneles solares,Reducción de consumo eléctrico,2025-07-16,Alta
+13,13,Actualización de modelos,Implementar última versión Arena,2025-07-17,Alta
+14,14,Revisión del sistema de alertas,Probar en entornos reales,2025-07-18,Alta
+15,15,Sincronización con Google Calendar,Integración API,2025-07-19,Media
+16,16,Migración a pasarela segura,Usar Stripe para pagos,2025-07-20,Muy Alta
+17,17,Políticas de privacidad reforzadas,Implementar autenticación 2FA,2025-07-21,Alta
+18,18,Pruebas de estrés continuas,Analizar patrones de respuesta,2025-07-22,Media
+19,19,Campaña de marketing de eventos,Promoción en redes sociales,2025-07-23,Alta
+20,20,Revisión de rutas de buses,Optimizar rutas con GPS,2025-07-24,Muy Alta

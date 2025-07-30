@@ -1,0 +1,21 @@
+id_historial,id_riesgo,descripcion,descripcion_accion,fecha
+1,1,Falla crítica detectada,Se aplicó backup de emergencia,2024-01-01
+2,2,Intento de acceso no autorizado,Se bloquearon las IP sospechosas,2025-04-25
+3,3,Error en pasarela Stripe,Se reinició el servicio,2020-07-02
+4,4,Mantenimiento completado,Se renovaron licencias,2025-03-04
+5,5,Desviación en gastos detectada,Se revisó presupuesto,2025-07-05
+6,6,Campaña lanzada,Se aumentó tráfico en 20%,2025-07-06
+7,7,Stock mal contabilizado,Se recalibraron sensores,2025-07-07
+8,8,Algoritmo optimizado,Se redujo tiempo de simulación,2025-07-08
+9,9,Conexión IoT inestable,Se reemplazó módulo de red,2022-07-09
+10,10,Usuarios capacitados,Se mejoró adopción del sistema,2025-07-10
+11,11,Tutores insuficientes,Se contrataron 3 tutores extra,2018-04-11
+12,12,Costos energéticos altos,Se instalaron paneles solares,2025-07-12
+13,13,Modelos desactualizados,Se implementó nueva versión,2018-07-13
+14,14,Sistema de alertas corregido,Se realizaron pruebas de campo,2025-07-14
+15,15,Conflictos de horarios,Se integró con Google Calendar,2020-03-15
+16,16,Falla de pagos recurrente,Se migró a plataforma Stripe,2025-05-16
+17,17,Privacidad comprometida,Se añadió 2FA obligatorio,2019-09-17
+18,18,Errores en mediciones de estrés,Se ajustó algoritmo de análisis,2019-05-18
+19,19,Baja asistencia en eventos,Se creó campaña publicitaria,2018-07-19
+20,20,Errores en GPS de buses,Se actualizó software de rutas,2021-12-20

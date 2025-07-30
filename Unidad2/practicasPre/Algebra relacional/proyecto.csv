@@ -1,0 +1,21 @@
+id_proyecto,nombre,descripcion,estado
+1,SGR Académico,Gestión de riesgos en proyectos estudiantiles,Activo
+2,Plataforma E-Learning,Sistema de cursos en línea,En Progreso
+3,App Salud,Monitoreo de bienestar físico,Finalizado
+4,Gestión Biblioteca,Digitalización de bibliotecas,Activo
+5,Control Financiero,Software de control de gastos,Inactivo
+6,Sistema Quiz,Evaluaciones académicas en línea,Activo
+7,Inventario UNL,Control de equipos universitarios,En Progreso
+8,Simulación Tráfico,Modelado en Pygame,Activo
+9,Plataforma IoT,Monitoreo de sensores remotos,Inactivo
+10,CRM Estudiantil,Gestión de relaciones con estudiantes,Finalizado
+11,App Tutorías,Conexión de tutores y alumnos,Activo
+12,Control Energía,Sistema de ahorro eléctrico,Activo
+13,Simulador Arena,Procesos industriales en Arena,En Progreso
+14,App Seguridad,Alertas de seguridad en campus,Inactivo
+15,Calendario Académico,Gestión de tareas y trabajos,Activo
+16,Sistema de Pagos,Pagos en línea para matrículas,Activo
+17,Red Social UNL,Comunicación entre estudiantes,En Progreso
+18,Monitor Estrés,Evaluación de estrés académico,Activo
+19,Gestión de Eventos,Organización de eventos UNL,Inactivo
+20,App Transporte,Seguimiento de buses universitarios,Finalizado

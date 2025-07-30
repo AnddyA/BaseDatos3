@@ -1,0 +1,14 @@
+-Obtener los proyectos que tengas un riesgo con categoría Financiero
+π descripcion (proyecto) ⧒ σ categoria == 'Financiero' (riesgo)
+
+-mostrar las descripciones de los planes de riesgo cuya eficiencia sea media
+π descripcion (σ eficiencia == 'Media' (plan_riesgo))
+
+-Listar el id de los proyecto que tengan riesgo de prioridad baja
+π id_proyecto (proyecto ⧒ σ prioridad == 'Baja' (riesgo))
+
+-Listar IDs de proyectos sin riesgos con estado Abierto
+π id_proyecto (proyecto) - π id_proyecto (σ estado == 'Abierto' (riesgo))
+
+-Mostrar el id y descripciones de requisitos de proyectos finalizados
+π id_proyecto, descripcion (requisito ⧒ σ estado == 'Finalizado' (proyecto))

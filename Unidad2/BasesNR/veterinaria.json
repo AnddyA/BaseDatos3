@@ -1,0 +1,25 @@
+{
+  "cedula": "1223455678",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "direccion": "Calle 123",
+  "telefonos": [
+    { "telefono": "1234567890" },
+    { "telefono": "0987654321" }
+  ],
+  "familia_contacto": [
+    {
+      "propietario": "Juan",
+      "nombre": "Maria Perez",
+      "telefono": "1122334455"
+    }
+  ],
+  "mascotas": [
+    {
+      "id": "001",
+      "nombre": "Fido",
+      "tipo": "Perro",
+      "fecha_nacimiento": "2015-05-01"
+    }
+  ]
+}

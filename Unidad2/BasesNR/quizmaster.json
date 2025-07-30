@@ -1,0 +1,64 @@
+//Grupo
+{
+  "_id": 1,
+  "grupo_1": "abc12",
+  "grupo_nombre": "Grupo A",
+  "miembros": [
+    {
+      "user_id": 101,
+      "dni": "0705760361",
+      "primer_nombre": "Andy",
+      "primer_apellido": "Apolo"
+    },
+    {
+      "user_id": 102,
+      "dni": "87654321",
+      "primer_nombre": "Jane",
+      "primer_apellido": "Smith"
+    }
+  ]
+}
+
+//user
+{
+    "_id": 101,
+    "dni": "0705760361",
+    "primer_nombre": "Andy",
+    "primer_apellido": "Apolo"
+},
+{
+    "_id": 102,
+    "dni": "87654321",
+    "primer_nombre": "Jane",
+    "primer_apellido": "Smith"
+}  
+// quiz
+{
+    "_id": 1,
+    "titulo": "Quiz de Matemáticas",
+    "descripcion": "Un quiz para evaluar tus conocimientos en matemáticas.",
+    "preguntas": [
+        {
+            "pregunta_id": 1,
+            "texto": "¿Cuál es la raíz cuadrada de 16?",
+            "opciones": [
+                { "opcion_id": 1, "texto": "2" },
+                { "opcion_id": 2, "texto": "4" },
+                { "opcion_id": 3, "texto": "8" }
+            ],
+            "respuesta_correcta": 2
+        },
+        {
+            "pregunta_id": 2,
+            "texto": "¿Cuánto es 5 + 7?",
+            "opciones": [
+                { "opcion_id": 1, "texto": "10" },
+                { "opcion_id": 2, "texto": "12" },
+                { "opcion_id": 3, "texto": "15" }
+            ],
+            "respuesta_correcta": 2
+        }
+    ]
+}
+
+//
